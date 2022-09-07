@@ -227,7 +227,7 @@ export default function Home() {
     if (!presaleStarted) {
       return (
         <div>
-          <div className={styles.description}>Presale hasn't started!</div>
+          <div className={styles.description}>Presale hasn&apos;t started!</div>
         </div>
       );
     }
@@ -259,7 +259,7 @@ export default function Home() {
       <Head>
         <title>Crypto Devs</title>
         <meta name="description" content="Whitelist-Dapp" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/techusiastic.png" />
       </Head>
       <div className={styles.main}>
         <div>
